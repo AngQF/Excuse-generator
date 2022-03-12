@@ -50,3 +50,10 @@ $ npm run deploy
 ```
 
 Very easy and in just one step!  Push to your __master__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages), the project is ready to be published. Remember to choose to run the Github Page from your master branch.
+
+EXPLICACIÓN:
+ ·html: usé dos h1 para representar las excusas. Como el primero no varía, lo escribí directamente en html y al segundo lo identifiqué con un id para modificarlo en js.
+
+ ·js: utilicé getElementById para referirme al h1 que contendría las excusas y lo igualé a una función que las generaría de forma aleatoria.
+ 
+ En esa función establecí las variables que formarían las excusas, cada variable tiene más de un elemento que será seleccionado aleatoriamente con Math.floor y Math.random; y luego la función retornará eso elementos en orden para generar la excusa.
